@@ -17,7 +17,8 @@ namespace Jinjoo_Ascii
             bool checkInput2 = (int)Char.GetNumericValue(input) > -1 && (int)Char.GetNumericValue(input) < 10;
 
             //알파벳 인지 OR 숫자 0-9가 맞는지 체크하는 조건문
-            if (checkInput1 || checkInput2) {
+            if (checkInput1 || checkInput2)
+            {
                 //값을 32비트 정수로 Convert
                 int output = Convert.ToInt32(input);
                 //입력값의 아스키 코드번호 출력
@@ -25,7 +26,7 @@ namespace Jinjoo_Ascii
             }
 
             //만약 '/'가 입력된다면 프로그램 종료
-            else if (input=='/')
+            else if (input == '/')
             {
                 //종료문구 출력
                 Console.WriteLine("프로그램이 종료됩니다!");

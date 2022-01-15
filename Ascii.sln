@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinjoo_Ascii", "Jinjoo_Ascii\Jinjoo_Ascii.csproj", "{08A478E6-9B01-4159-ABBC-D1EDFB02D552}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ascii", "baekjoon\Ascii.csproj", "{08A478E6-9B01-4159-ABBC-D1EDFB02D552}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

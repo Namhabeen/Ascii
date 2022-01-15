@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace Jinjoo_Ascii
+namespace Ascii
 {
     class CharToAscii
     {
